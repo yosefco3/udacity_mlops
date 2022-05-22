@@ -8,13 +8,13 @@ both files achived grade above 7 on pylint.
 
 ## Files and data description
 ### churn_library.py
-this file includes functions with the flow of the project. from recieving the data until creating the models, making predictions and testing.
+#### this file includes functions with the flow of the project. from recieving the data until creating the models, making predictions and testing.
     * the time to run the file is like 6 min. you could short it by pass to the function "train_models" the argument "load_models" with True. so if the models already created it would load them from the models directory. 
     * if the models didnt created yet, it will throw an error with appropriate message. then you should pass True to the "load_models" argument.
     
 
 ### churn_script_logging_and_testing.py
-a file which tests and logs all the flow of the project.
+#### a file which tests and logs all the flow of the project.
     * first it creates a testing folders (if they aready exist it remove them and then create them) the purpose is to seperate the testing from the "production" code.
     * the testing folders are:
         * 'images/testing/' - this directory stores all the plots.
