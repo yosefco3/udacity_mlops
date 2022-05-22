@@ -3,6 +3,7 @@
 
 ## Project Description
 In this project, I will implement my learnings to identify credit card customers that are most likely to churn. The completed project will include a Python package for a machine learning project that follows coding (PEP8) and engineering best practices for implementing software (modular, documented, logged, and tested). 
+The project is to turn the notebook "churn_notebook.ipynb" (included) into a scripts with flow of all the process, from reading the data to testing and logging.
 both files achived grade above 7 on pylint.
 
 ## Files and data description
